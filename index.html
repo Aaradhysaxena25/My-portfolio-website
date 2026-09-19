@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Arad Saxena | CS Undergraduate & Full-Stack Developer</title>
+  <title>Aradhya Saxena | CS Undergraduate & Full-Stack Developer</title>
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -109,7 +109,7 @@
       const terminalEndRef = useRef(null);
 
       const [terminalLogs, setTerminalLogs] = useState([
-        { text: "✨ Arad Saxena OS v3.2 [Interactive Mesh Build]", type: "system" },
+        { text: "✨ Aradhya Saxena OS v3.2 [Interactive Mesh Build]", type: "system" },
         { text: "Type 'help' to see available CLI commands.", type: "info" }
       ]);
 
@@ -183,14 +183,14 @@
         const cmd = terminalInput.trim().toLowerCase();
         if (!cmd) return;
 
-        let newLogs = [...terminalLogs, { text: `arad@itm-gwalior:~$ ${terminalInput}`, type: 'user' }];
+        let newLogs = [...terminalLogs, { text: `aradhya@itm-gwalior:~$ ${terminalInput}`, type: 'user' }];
 
         switch (cmd) {
           case 'help':
             newLogs.push({ text: "Available commands: 'about', 'skills', 'projects', 'education', 'contact', 'matrix', 'clear'", type: 'info' });
             break;
           case 'about':
-            newLogs.push({ text: "Arad Saxena — B.Tech CSE Undergraduate at ITM Gwalior (Affiliated with RGPV Bhopal). Passionate about React, Python, and MERN full-stack development.", type: 'response' });
+            newLogs.push({ text: "Aradhya Saxena — B.Tech CSE Undergraduate at ITM Gwalior (Affiliated with RGPV Bhopal). Passionate about React, Python, and MERN full-stack development.", type: 'response' });
             break;
           case 'skills':
             newLogs.push({ text: "⚡ Tech Stack: React.js, Python, JavaScript (ES6+), Node.js, Express, MongoDB, Tailwind CSS, Git.", type: 'response' });
@@ -202,7 +202,7 @@
             newLogs.push({ text: "🚀 Featured Projects: 1. InvenVision Analytics (MERN) | 2. Neural Market Terminal (Python/React) | 3. BellaVista Suite (React)", type: 'response' });
             break;
           case 'contact':
-            newLogs.push({ text: "📫 Email: aradsaxena@example.com | GitHub: /aradsaxena | LinkedIn: /in/aradsaxena", type: 'response' });
+            newLogs.push({ text: "📫 Email: shivshaktidass@gmail.com | GitHub: /aradhyasaxena25 | LinkedIn: /in/aaradhy-saxena-a38440281", type: 'response' });
             break;
           case 'matrix':
             newLogs.push({ text: "🟢 01000001 01010010 01000001 01000100 -- React & Python System Online!", type: 'system' });
@@ -220,7 +220,7 @@
       };
 
       const copyEmail = () => {
-        const emailText = 'aradsaxena@example.com';
+        const emailText = 'shivshaktidass@gmail.com';
         if (navigator.clipboard && navigator.clipboard.writeText) {
           navigator.clipboard.writeText(emailText);
         } else {
@@ -273,7 +273,7 @@
                 </div>
                 <div>
                   <span className="font-bold text-xl tracking-wide text-white block leading-tight">
-                    Arad<span className="bg-gradient-to-r from-pink-400 via-purple-300 to-cyan-400 bg-clip-text text-transparent">Saxena</span>
+                    Aradhya<span className="bg-gradient-to-r from-pink-400 via-purple-300 to-cyan-400 bg-clip-text text-transparent">Saxena</span>
                   </span>
                   <span className="text-[10px] font-mono text-pink-300 block">ITM GWALIOR • RGPV</span>
                 </div>
@@ -591,7 +591,7 @@
                         <div className="w-3.5 h-3.5 rounded-full bg-rose-500/90" />
                         <div className="w-3.5 h-3.5 rounded-full bg-amber-500/90" />
                         <div className="w-3.5 h-3.5 rounded-full bg-emerald-500/90" />
-                        <span className="text-xs font-mono font-bold text-purple-200 ml-2">arad-cli@itm-gwalior:~</span>
+                        <span className="text-xs font-mono font-bold text-purple-200 ml-2">aradhya-cli@itm-gwalior:~</span>
                       </div>
                       <Icon name="terminal" className="w-4 h-4 text-purple-300" />
                     </div>
@@ -651,7 +651,7 @@
                         </div>
                         <div className="text-left">
                           <span className="text-[10px] text-slate-400 font-mono block">Direct Email</span>
-                          <span className="font-mono text-xs sm:text-sm font-bold">aradsaxena@example.com</span>
+                          <span className="font-mono text-xs sm:text-sm font-bold">shivshaktidass@gmail.com</span>
                         </div>
                       </div>
                       <div className="p-2 rounded-lg bg-white/10 text-slate-300">
@@ -661,7 +661,7 @@
 
                     <div className="flex gap-4">
                       <a 
-                        href="https://github.com" 
+                        href="https://github.com/Aaradhysaxena25" 
                         target="_blank" 
                         rel="noreferrer"
                         className="flex-1 p-4 rounded-2xl glass-card hover:border-purple-500/50 flex items-center justify-center gap-3 text-slate-200 hover:text-white transition-all font-bold text-xs"
@@ -669,7 +669,7 @@
                         <Icon name="github" className="w-5 h-5 text-purple-400" /> GitHub
                       </a>
                       <a 
-                        href="https://linkedin.com" 
+                        href="https://www.linkedin.com/in/aaradhy-saxena-a38440281" 
                         target="_blank" 
                         rel="noreferrer"
                         className="flex-1 p-4 rounded-2xl glass-card hover:border-cyan-500/50 flex items-center justify-center gap-3 text-slate-200 hover:text-white transition-all font-bold text-xs"
@@ -791,7 +791,7 @@
           )}
 
           <footer className="border-t border-white/10 py-8 text-center text-xs text-slate-400">
-            <p>© {new Date().getFullYear()} Arad Saxena. Computer Science Undergraduate at ITM Gwalior (Affiliated with RGPV Bhopal).</p>
+            <p>© {new Date().getFullYear()} Aradhya Saxena. Computer Science Undergraduate at ITM Gwalior (Affiliated with RGPV Bhopal).</p>
           </footer>
 
         </div>
